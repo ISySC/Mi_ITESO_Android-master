@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvRouteID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/mar_12dp"
+        android:layout_marginLeft="@dimen/pad_12"
+        android:layout_marginTop="@dimen/mar_12dp"
+        android:background="@drawable/btn_style"
+        android:padding="@dimen/pad_12"
+        android:text="{Ruta}"
+        android:textAlignment="center"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/font_size_16"
+        android:visibility="visible" />
+
+</RelativeLayout>

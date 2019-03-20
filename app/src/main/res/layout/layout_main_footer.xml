@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dim_48dp"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/background_border"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rl_agenda"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:contentDescription="@string/description_agenda">
+
+        <ImageView
+            android:id="@+id/ic_agenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_agenda" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_finance"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:contentDescription="@string/description_estado_cuenta">
+
+        <ImageView
+            android:id="@+id/ic_finance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_finance" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_kardex"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:contentDescription="@string/description_ruta_curricular">
+
+        <ImageView
+            android:id="@+id/ic_kardex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_kardex" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:contentDescription="@string/description_horario_escolar">
+
+        <ImageView
+            android:id="@+id/ic_schedule"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_baseline_calendar_today_24px"
+            android:tint="#727272" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_complements"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:contentDescription="@string/description_ITESUBES">
+
+        <ImageView
+            android:id="@+id/ic_complements"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_complements"
+            android:tint="#727272" />
+    </RelativeLayout>
+
+
+</LinearLayout>

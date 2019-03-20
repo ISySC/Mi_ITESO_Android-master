@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/ln_header"
+        layout="@layout/layout_header" />
+
+    <TextView
+        android:id="@+id/lbl_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln_header"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Calificaciones"
+        android:textColor="@color/colorTxtGeneral"
+        android:textSize="@dimen/font_size_15"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ln_line_email"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/lbl_subject"
+        android:background="@color/line_email"
+        android:orientation="vertical" />
+
+    <RelativeLayout
+        android:id="@+id/rl_email_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln_line_email">
+
+        <ImageView
+            android:id="@+id/ic_email_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="21dp"
+            android:src="@drawable/ic_email_circule" />
+
+        <TextView
+            android:id="@+id/lbl_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="35dp"
+            android:text="A"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_size_15" />
+
+        <TextView
+            android:id="@+id/lbl_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@id/ic_email_circle"
+            android:text="Gómez Luna"
+            android:textColor="@color/color_lbl_notification"
+            android:textSize="@dimen/font_size_15"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lbl_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lbl_from"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/ic_email_circle"
+            android:text="A mi"
+            android:textColor="@color/color_lbl_notification"
+            android:textSize="@dimen/font_size_12" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lbl_to"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/ic_email_circle"
+            android:text="ayer, 14:11"
+            android:textColor="@color/color_lbl_notification"
+            android:textSize="@dimen/font_size_12" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ln_line_email_detail"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/rl_email_details"
+        android:layout_marginTop="22dp"
+        android:background="@color/line_email"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/lbl_message_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ln_line_email_detail"
+        android:layout_margin="16dp"
+        android:text="Te adjunto el documento para que puedas trabajar este fin de semana sobre tu proyecto"
+        android:textStyle="bold" />
+
+</RelativeLayout>

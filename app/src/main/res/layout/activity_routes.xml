@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ly_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/ln_header"
+        layout="@layout/layout_header" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ln_header" />
+
+    <ImageView
+        android:id="@+id/ic_info"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_below="@id/ln_header"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_info_48"
+        android:layout_margin="@dimen/mar_20dp"/>
+
+
+</RelativeLayout>
+

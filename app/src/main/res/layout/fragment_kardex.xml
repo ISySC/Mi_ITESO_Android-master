@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!-- Tab Layout for creating tabs -->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln_header"
+        android:background="@color/header_color"
+        app:tabIndicatorColor="@color/ligthis_green"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="#fff"
+        app:tabTextAppearance="@style/TabLayoutTextAppearance"
+        app:tabTextColor="#b2ffffff" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/linearLayout"
+        android:layout_below="@id/last_update"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:id="@+id/last_update"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/tabLayout"
+        android:background="@color/footer_color"
+        android:gravity="center"
+        android:text="fecha_actualización"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/font_size_12" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:weightSum="3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/footer_color">
+
+            <TextView
+                android:id="@+id/lbl_curses"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="Ciclos cursados"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_11" />
+
+            <TextView
+                android:id="@+id/lbl_curses_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/lbl_curses"
+                android:text="0"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_16" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/lbl_link_color">
+
+            <TextView
+                android:id="@+id/lbl_porcentaje"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="Porcentaje de avance"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_11" />
+
+            <TextView
+                android:id="@+id/lbl_porcentaje_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@+id/lbl_porcentaje"
+                android:text="0%"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_16" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/ligthis_green">
+
+            <TextView
+                android:id="@+id/lbl_average"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="Promedio general"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_11" />
+
+            <TextView
+                android:id="@+id/lbl_average_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@id/lbl_average"
+                android:text="0"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_16" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

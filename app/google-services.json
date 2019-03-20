@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "11865823817",
+    "firebase_url": "https://mi-iteso-fe54d.firebaseio.com",
+    "project_id": "mi-iteso-fe54d",
+    "storage_bucket": "mi-iteso-fe54d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11865823817:android:a84ea256cb4c14de",
+        "android_client_info": {
+          "package_name": "mx.iteso.miiteso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11865823817-5908mnf7otcfl496bd4a8lrtcf01l613.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2L-LfTuWmNVEAr6qGGX1Et2fYOYnsSU0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

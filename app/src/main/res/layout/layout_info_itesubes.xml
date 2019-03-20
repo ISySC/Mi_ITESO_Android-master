@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/info_itesubes"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ln_parada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mar_32dp"
+            android:layout_marginTop="@dimen/mar_32dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_camion" />
+
+            <TextView
+                android:id="@+id/tv_parada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/mar_12dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/paradas"
+                android:textColor="@color/colorTxtGeneral"
+                android:textSize="@dimen/font_size_16" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ln_carro_detenido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mar_32dp"
+            android:layout_marginTop="@dimen/mar_12dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_carro_red" />
+
+            <TextView
+                android:id="@+id/tv_detenido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/mar_12dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/carro_detenido"
+                android:textColor="@color/colorTxtGeneral"
+                android:textSize="@dimen/font_size_16" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ln_carro_lento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ln_carro_detenido"
+            android:layout_marginLeft="@dimen/mar_32dp"
+            android:layout_marginTop="@dimen/mar_12dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_carro_orange" />
+
+            <TextView
+                android:id="@+id/tv_lento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/mar_12dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/carro_lento"
+                android:textColor="@color/colorTxtGeneral"
+                android:textSize="@dimen/font_size_16" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ln_carro_lento"
+            android:layout_marginLeft="@dimen/mar_32dp"
+            android:layout_marginTop="@dimen/mar_12dp"
+            android:layout_marginBottom="@dimen/mar_32dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_carro_green" />
+
+            <TextView
+                android:id="@+id/tv_movimiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/mar_12dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/carro_movimiento"
+                android:textColor="@color/colorTxtGeneral"
+                android:textSize="@dimen/font_size_16" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

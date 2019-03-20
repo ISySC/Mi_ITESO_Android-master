@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#1b75bb</color>
+    <color name="colorAccent">#4cd964</color>
+
+    <!-- colores para objetosactivity_loginsion -->
+    <color name="colorBtnIngresar">#1b75bb</color>
+    <color name="colorFondoCajaTxt">#dae3e5</color>
+    <color name="colorTxtBtnIngresar">#ffffff</color>
+    <color name="colorTxtView">#28282B</color>
+    <color name="colorTxtGeneral">#000000</color>
+    <color name="lbl_footer_title_color">#ffffff</color>
+    <color name="lbl_link_color">#1B75BB</color>
+    <color name="ligthis_green">#4cd964</color>
+
+    <color name="color_white">#fff</color>
+    <color name="slate_grey">#58595b</color>
+    <color name="nice_blue">#1b75bb</color>
+    <color name="marine_blue">#053756</color>
+
+    <color name="color_transparent">#00ffffff</color>
+
+    <color name="greyish_brown">#4b4b4b</color>
+    <!-- colores playout_headerzado -->
+    <color name="header_color">#1b75bb</color>
+    <color name="footer_color">#053756</color>
+    <color name="color_footer_main">#fff</color>
+    <color name="color_border_footer_main">#7f000000</color>
+    <color name="header_title_color">#ffffff</color>
+
+    <color name="color_activity_background">#fff</color>
+    <color name="color_lbl_notification">#58595b</color>
+    <color name="color_background_notification">#edf8ff</color>
+    
+    <color name="color_background_email_circle">#1b75bb</color>
+    <color name="line_email">#a8a8a8</color>
+
+    <color name="color_black">#000000</color>
+    <color name="color_nice_blue">#1b75bb</color>
+    <color name="color_current_day">#FF0000</color>
+
+    <color name="colorHorario">#339999</color>
+    <color name="colorAgenda">#6600cc</color>
+</resources>

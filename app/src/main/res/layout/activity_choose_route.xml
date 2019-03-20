@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_activity_background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/ly_header"
+        layout="@layout/layout_header" />
+
+    <ListView
+        android:id="@+id/lv_routs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ly_header"
+        android:divider="@color/color_white" />
+
+    <!--<ImageView
+        android:layout_below="@id/ln_header"
+        android:id="@+id/ic_logo_itesubes"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_logo_itesubes" />
+
+    <TextView
+        android:id="@+id/lbl_choose_route_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ic_logo_itesubes"
+        android:layout_marginLeft="51dp"
+        android:layout_marginRight="49dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/choose_route_title"
+        android:textSize="@dimen/font_size_22" />-->
+
+    <!--<Button
+        android:id="@+id/btn_colon"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimBtnIngresarAlto"
+        android:layout_below="@id/lbl_choose_route_title"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_style"
+        android:text="@string/colon_route"
+        android:textColor="@color/colorTxtBtnIngresar"
+        android:textSize="@dimen/dimTamanoLetra" />
+
+    <Button
+        android:id="@+id/btn_las_fuentes"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimBtnIngresarAlto"
+        android:layout_below="@id/btn_colon"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/btn_style"
+        android:text="@string/las_fuentes_route"
+        android:textColor="@color/colorTxtBtnIngresar"
+        android:textSize="@dimen/dimTamanoLetra" />-->
+
+</RelativeLayout>

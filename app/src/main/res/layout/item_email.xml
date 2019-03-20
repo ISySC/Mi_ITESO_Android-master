@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    android:background="@color/color_background_notification"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_item_email"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ic_email_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:src="@drawable/ic_email_circule" />
+
+        <TextView
+            android:id="@+id/lbl_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="35dp"
+            android:text="A"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_size_15" />
+
+        <TextView
+            android:id="@+id/lbl_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@id/ic_email_circle"
+            android:text="Prueba"
+            android:textColor="@color/color_lbl_notification"
+            android:textSize="@dimen/font_size_12"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lbl_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lbl_from"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/ic_email_circle"
+            android:text="Prueba"
+            android:textColor="@color/color_lbl_notification"
+            android:textSize="@dimen/font_size_12" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="18dp"
+            android:text="Prueba"
+            android:textColor="@color/color_lbl_notification"
+            android:textSize="@dimen/font_size_12" />
+    </RelativeLayout>
+</RelativeLayout>

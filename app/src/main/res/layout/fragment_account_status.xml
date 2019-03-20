@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Tab Layout for creating tabs -->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln_header"
+        android:background="@color/header_color"
+        app:tabIndicatorColor="#ffff8c"
+        app:tabSelectedTextColor="#ffffffff"
+        app:tabTextAppearance="@style/TabLayoutTextAppearance"
+        app:tabTextColor="#b2ffffff" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/last_update"
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/last_update"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:layout_below="@id/tabLayout"
+        android:background="@color/footer_color"
+        android:gravity="center"
+        android:text="fecha_actualizacion"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/font_size_12" />
+
+
+</RelativeLayout>

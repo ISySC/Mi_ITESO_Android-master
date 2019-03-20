@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/ln_header"
+        layout="@layout/layout_header" />
+
+    <include
+        android:id="@+id/ln_footer"
+        layout="@layout/layout_main_footer" />
+
+    <FrameLayout
+        android:id="@+id/fl_seccion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ln_header"
+        android:layout_above="@id/ln_footer"/>
+
+</RelativeLayout>

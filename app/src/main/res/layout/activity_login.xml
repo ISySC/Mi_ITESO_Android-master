@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true">
+
+    <include
+        android:id="@+id/ly_header"
+        layout="@layout/layout_header" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ly_footer"
+        android:layout_below="@id/ly_header">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/ln_footer">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ic_logo_iteso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="33dp"
+                    android:src="@drawable/ic_logo_iteso" />
+
+                <EditText
+                    android:id="@+id/txt_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/ic_logo_iteso"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="33dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/txt_style"
+                    android:hint="@string/txt_account_string"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="18dp"
+                    android:textColor="@color/colorTxtView"
+                    android:textSize="@dimen/font_size_14" />
+
+                <!--android:text="is696372"-->
+
+                <EditText
+                    android:id="@+id/txt_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/txt_account"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="33dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/txt_style"
+                    android:hint="@string/txt_password_string"
+                    android:paddingLeft="18dp"
+                    android:inputType="textPassword"
+                    android:textColor="@color/colorTxtView"
+                    android:textSize="@dimen/font_size_14" />
+
+                <!--android:text="Lf58471337Gr"-->
+
+                <CheckBox
+                    android:id="@+id/chk_remember_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dim_48dp"
+                    android:layout_below="@id/txt_password"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="10dp"
+                    android:button="@drawable/chk_style"
+                    android:paddingLeft="11dp"
+                    android:text="@string/chk_session_active_string"
+                    android:textColor="@color/colorTxtGeneral"
+                    android:textSize="@dimen/font_size_14" />
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimBtnIngresarAlto"
+                    android:layout_below="@+id/chk_remember_data"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginRight="33dp"
+                    android:background="@drawable/btn_style"
+                    android:text="@string/btn_login_string"
+                    android:textColor="@color/colorTxtBtnIngresar"
+                    android:textSize="@dimen/font_size_14" />
+
+                <TextView
+                    android:id="@+id/lbl_problems"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dim_48dp"
+                    android:layout_below="@id/btn_login"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/lbl_problems_string"
+                    android:textColor="@color/lbl_link_color"
+                    android:textSize="@dimen/font_size_14" />
+
+                <TextView
+                    android:id="@+id/lbl_privacity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dim_48dp"
+                    android:layout_below="@id/lbl_problems"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="@string/lbl_notice_privacy_string"
+                    android:textColor="@color/lbl_link_color"
+                    android:textSize="@dimen/font_size_14" />
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/ly_footer"
+        layout="@layout/layout_footer" />
+
+</RelativeLayout>

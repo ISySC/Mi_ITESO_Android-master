@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/ln_header"
+            layout="@layout/layout_header" />
+
+        <include
+            android:id="@+id/ln_info"
+            layout="@layout/item_subject"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:id="@+id/separador"
+        android:layout_below="@id/header"
+        android:background="@color/nice_blue"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/separador"
+        android:layout_margin="20dp"
+        android:gravity="top|center_horizontal"
+        android:text="Para cursar esta materia es necesario contar con una MAC." />
+
+
+
+</RelativeLayout>

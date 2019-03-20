@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/ln_header"
+        layout="@layout/layout_header" />
+
+    <TextView
+        android:id="@+id/lbl_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln_header"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="{ title }"
+        android:textColor="@color/colorTxtGeneral"
+        android:textSize="@dimen/font_size_15"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ln_line_email"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/lbl_subject"
+        android:background="@color/line_email"
+        android:orientation="vertical" />
+
+    <RelativeLayout
+        android:id="@+id/rl_email_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln_line_email">
+
+        <TextView
+            android:id="@+id/lbl_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@id/ic_email_circle"
+            android:text="{ remitente }"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/font_size_15"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lbl_from"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="24dp"
+            android:layout_toRightOf="@id/ic_email_circle"
+            android:text="{ fecha }"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/font_size_12" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ln_line_email_detail"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/rl_email_details"
+        android:layout_marginTop="22dp"
+        android:background="@color/line_email"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/lbl_message_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln_line_email_detail"
+        android:layout_margin="16dp"
+        android:text="{ mensaje }"
+        android:textColor="@color/color_black" />
+
+</RelativeLayout>

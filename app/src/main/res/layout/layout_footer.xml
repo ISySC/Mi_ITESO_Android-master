@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dim_48dp"
+    android:layout_alignParentBottom="true"
+    android:background="@color/footer_color"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_complement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/lbl_footer_title"
+        android:padding="@dimen/dimTamanoLetra"
+        android:src="@drawable/ic_arrow_ios"
+        android:tint="@color/color_white" />
+
+    <TextView
+        android:id="@+id/lbl_footer_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="titulo"
+        android:textColor="@color/lbl_footer_title_color"
+        android:textSize="@dimen/font_size_14" />
+</RelativeLayout>

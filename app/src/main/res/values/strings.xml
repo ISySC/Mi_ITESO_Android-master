@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Mi ITESO</string>
+
+    <!-- string para activity_login !-->
+    <string name="lbl_problems_string">¿Tienes problemas para ingresar?</string>
+    <string name="lbl_problems_messaage_string">Favor de contactar a esi@iteso.mx</string>
+    <string name="lbl_notice_privacy_string">Aviso de privacidad</string>
+    <string name="lbl_complements">Servicios ITESO</string>
+    <string name="txt_account_string">Expediente (ej: aa012345) </string>
+    <string name="txt_password_string">Contraseña</string>
+    <string name="chk_session_active_string">Mantener sesión activa</string>
+    <string name="btn_login_string">Ingresar</string>
+
+    <!-- texlayout_main_headerader !-->
+    <string name="title_header">Iniciar sesión</string>
+
+    <!-- textos para layout_encabezado_main !-->
+    <string name="title_header_main">Mi ITESO</string>
+    <string name="title_header_schedule">Horario</string>
+    <string name="title_notifications">Notificaciones</string>
+
+    <string name="itesubes_title">ITESUBES</string>
+    <string name="extension_title">Servicios ITESO</string>
+    <string name="schedule_title">Horario escolar</string>
+
+    <string name="choose_route_title">Selecciona la ruta que deseas tomar</string>
+    <string name="colon_route">Ruta - Colón</string>
+    <string name="las_fuentes_route">Ruta - Las fuentes</string>
+    <string name="routes_header_title">Rutas</string>
+
+    <string name="lbl_title_configuration">Opciones</string>
+
+    <string name="set_message_title_logout">Cerrar sesión</string>
+    <string name="set_negative_button">Cancelar</string>
+    <string name="set_message_sing_off">¿Estás seguro de querer salir de la sesión?</string>
+    <string name="preference_file_key">MIITESO</string>
+    <string name="title_activity_fragment_maps">Map</string>
+
+    <string name="title_show_hide_notice">Ocultar / mostrar avisos</string>
+    <string name="lbl_setting">Ajustes</string>
+
+    <string name="lbl_main_notice">Aviso</string>
+    <string name="title_coordination">Acompañamiento</string>
+    <string name="title_email">Correos</string>
+
+    <string name="account_status">Estado de cuenta</string>
+    <string name="kardex">Ruta curricular</string>
+    <string name="title_activity_fragment_account_status1">FragmentAccountStatus1</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_fragment_account_status">FragmentAccountStatus</string>
+    <string name="title_activity_routes">Rutas</string>
+
+    <string name="description_agenda">Agenda</string>
+    <string name="description_estado_cuenta">Estado de Cuenta</string>
+    <string name="description_ruta_curricular">Ruta Curricular</string>
+    <string name="description_horario_escolar">Horario Escolar</string>
+    <string name="description_ITESUBES">ITESUBES</string>
+
+    <string name="about">Acerca de</string>
+
+    <string name="lbl_about">Mi ITESO \n\n\n\n Desarrollado por Laboratorio de Aplicaciones Móviles Ulab ITESO. </string>
+    <string name="carro_detenido">Vehículo detenido</string>
+    <string name="carro_lento">Vehículo en movimiento lento</string>
+    <string name="carro_movimiento">Vehículo en movimiento</string>
+    <string name="paradas">Paradas</string>
+
+</resources>

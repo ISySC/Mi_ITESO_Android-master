@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- tamanos paraactivity_loginsion !-->
+    <dimen name="dimBtnIngresarAncho">295dp</dimen>
+    <dimen name="dimBtnIngresarAlto">50dp</dimen>
+    <dimen name="dimCajaTxtAncho">295dp</dimen>
+    <dimen name="dimCajaTxtAlto">50dp</dimen>
+    <dimen name="dimTamanoLetra">15sp</dimen>
+    <dimen name="dim_size_10">10dp</dimen>
+    <dimen name="dim_50dp">50dp</dimen>
+    <dimen name="siz_20sp">20sp</dimen>
+    <dimen name="dim_48dp">48dp</dimen>
+
+    <!-- tamanos playout_headerzado !-->
+    <dimen name="header_size">50dp</dimen>
+    <dimen name="footer_size">47dp</dimen>
+
+    <dimen name="font_size_11">11sp</dimen>
+    <dimen name="font_size_12">12sp</dimen>
+    <dimen name="font_size_13">13sp</dimen>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_15">15sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="font_size_20">20sp</dimen>
+    <dimen name="font_size_22">22sp</dimen>
+    <dimen name="font_size_24">24sp</dimen>
+    <dimen name="font_size_26">26sp</dimen>
+
+    <dimen name="lst_option_heigth">80dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="item_dob_width">100dp</dimen>
+
+    <dimen name="mar_16dp">16dp</dimen>
+    <dimen name="mar_32dp">32dp</dimen>
+    <dimen name="mar_40dp">40dp</dimen>
+    <dimen name="mar_52dp">52dp</dimen>
+    <dimen name="mar_12dp">12dp</dimen>
+    <dimen name="mar_62dp">62dp</dimen>
+    <dimen name="mar_64dp">64dp</dimen>
+    <dimen name="mar_68dp">68dp</dimen>
+    <dimen name="mar_20dp">20dp</dimen>
+    <dimen name="mar_5dp">5dp</dimen>
+
+    <dimen name="pad_12">12dp</dimen>
+
+</resources>
